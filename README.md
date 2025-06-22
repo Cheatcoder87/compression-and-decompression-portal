@@ -41,9 +41,13 @@ You can run both frontend and backend locally for development or testing.
 
 ```bash
 git clone git@github.com:Cheatcoder87/compression-and-decompression-portal.git
+
+## backend
 cd compression-and-decompression-portal/backend
 npm install
 node app.js
+
+## frontend (open a new terminal)
 cd compression-and-decompression-portal/frontend
 npm install
 npm start
