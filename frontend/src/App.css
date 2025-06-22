@@ -1,0 +1,54 @@
+body {
+  background-image: url('image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #eef0f0;
+}
+
+nav {
+  margin-bottom: 30px;
+  padding: 1rem;
+  background-color: rgba(199, 234, 249, 0.85);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid #1e4cbf;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav .btn {
+  margin-right: 12px;
+  font-weight: 500;
+}
+
+.container {
+  backdrop-filter: blur(6px);
+  padding: 2rem;
+}
+
+.card {
+  background-color: rgba(161, 213, 225, 0.92);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  font-weight: 600;
+  color: #b9ddf4;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+form .form-control,
+form .form-select {
+  margin-bottom: 1rem;
+}
+
+a.btn {
+  margin-top: 10px;
+}
