@@ -25,7 +25,7 @@ Deployed on Render
    - Download result
 3. Use the **🔓 Decompression Portal**:
    - Upload a compressed file
-   - Select the matching algorithm
+   - Select the matching algorithm(`Huffman` for .huf files and `RlE` for .rle files)
    - Click `Decompress File`
    - Download the original file
 
